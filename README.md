@@ -14,7 +14,7 @@
 │	└───>/latex		(documentation on latex)
 │
 │
-├───>/inc		((or include) for library projects, the distributable include files (.h of your library))
+├───>/inc			((or include) for library projects, the distributable include files (.h of your library))
 │
 │
 ├───>/lib			(any library dependences (.h, .a from others libraries))
@@ -40,7 +40,7 @@
 │
 ├───>ChangeLog		(list of changes and such)
 │
-├───>COPYING		(project license and warranty info)
+├───>LICENSE		((or COPYING) project license and warranty info)
 │
 ├───>Doxyfile		(Doxygen instructions file)
 │
@@ -55,5 +55,4 @@
 >*For C++ projects, headers and sources go along, but if your project is a library then separating include files for others is a better practice</br>
 **For multiple files having related contents, it is better to separate them to their own subfolders)
 
-
-https://www.gnu.org/prep/standards/html_node/index.html
+For more info or conventions: https://www.gnu.org/prep/standards/standards.html
